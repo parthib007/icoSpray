@@ -1,0 +1,7 @@
+clouds/baseClasses/icosprayCloud/icosprayCloud.C
+
+icoSPRAYPARCEL=parcels/derived/basicicoSprayParcel
+$(icoSPRAYPARCEL)/defineBasicicoSprayParcel.C
+$(icoSPRAYPARCEL)/makeBasicicoSprayParcelSubmodels.C
+
+LIB = $(FOAM_LIBBIN)/liblagrangianicoSpray
